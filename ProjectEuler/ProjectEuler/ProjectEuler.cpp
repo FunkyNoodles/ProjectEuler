@@ -2,19 +2,15 @@
 //
 
 #include "stdafx.h"
+
 #include <iostream>
+#include "Problem1.h"
+#include "Problem1.cpp"
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[]){
-	int totalSum = 0;
-	for (int i = 0; i < 1000; i++){
-		if (i % 3 == 0 || i % 5 == 0){
-			totalSum += i;
-		}
-	}
-	cout << totalSum << endl;
-	cout << "dude" << endl;
+	Problem1 test;
 	return 0;
 }
