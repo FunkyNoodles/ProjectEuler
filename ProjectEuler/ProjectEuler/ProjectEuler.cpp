@@ -5,9 +5,16 @@
 #include <iostream>
 
 using namespace std;
-using namespace Problem1;
 
 
 int _tmain(int argc, _TCHAR* argv[]){
-	Problem1 test;
+	int totalSum = 0;
+	for (int i = 0; i < 1000; i++){
+		if (i % 3 == 0 || i % 5 == 0){
+			totalSum += i;
+		}
+	}
+	cout << totalSum << endl;
+	cout << "dude" << endl;
+	return 0;
 }
