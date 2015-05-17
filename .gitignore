@@ -1,3 +1,10 @@
+#Temp
+*.sdf
+*.opensdf
+*.suo
+*.vcxproj.user
+ipch
+
 # Compiled Object files
 *.slo
 *.lo
