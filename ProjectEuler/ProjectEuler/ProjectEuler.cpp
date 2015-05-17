@@ -2,10 +2,12 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+using namespace Problem1;
 
 
-int _tmain(int argc, _TCHAR* argv[])
-{
-	return 0;
+int _tmain(int argc, _TCHAR* argv[]){
+	Problem1 test;
 }
-
