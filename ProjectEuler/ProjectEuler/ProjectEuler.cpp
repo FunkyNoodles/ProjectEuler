@@ -12,5 +12,8 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[]){
 	Problem1 test;
+	while (true) {
+
+	}
 	return 0;
 }
