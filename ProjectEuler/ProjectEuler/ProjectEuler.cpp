@@ -4,13 +4,14 @@
 #include <iostream>
 #include "Problem1.h"
 #include "Problem2.h"
+#include "Problem3.h"
 #include "Problem4.h"
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[]){
-	Problem4 test;
+	Problem3 test;
 	while (true) {
 		//keep the console open
 	}
