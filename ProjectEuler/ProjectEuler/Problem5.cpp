@@ -15,7 +15,6 @@ Problem5::Problem5()
 	cout << number << endl;
 }
 
-
 Problem5::~Problem5()
 {
 }
