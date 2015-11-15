@@ -8,12 +8,13 @@
 #include "Problem4.h"
 #include "Problem5.h"
 #include "Problem6.h"
+#include "Problem7.h"
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[]){
-	Problem6 test;
+	Problem7 test;
 	while (true) {
 		//keep the console open
 	}
