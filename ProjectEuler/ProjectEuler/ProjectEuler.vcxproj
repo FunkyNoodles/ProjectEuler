@@ -79,6 +79,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Problem10.h" />
     <ClInclude Include="Problem2.h" />
     <ClInclude Include="Problem3.h" />
     <ClInclude Include="Problem4.h" />
@@ -90,6 +91,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Problem10.cpp" />
     <ClCompile Include="Problem2.cpp" />
     <ClCompile Include="Problem3.cpp" />
     <ClCompile Include="Problem4.cpp" />
