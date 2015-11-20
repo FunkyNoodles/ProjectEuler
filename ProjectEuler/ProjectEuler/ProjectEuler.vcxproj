@@ -76,11 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="Problem11.txt" />
     <Text Include="Problem13.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problem10.h" />
+    <ClInclude Include="Problem11.h" />
     <ClInclude Include="Problem12.h" />
     <ClInclude Include="Problem13.h" />
     <ClInclude Include="Problem2.h" />
@@ -97,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem10.cpp" />
+    <ClCompile Include="Problem11.cpp" />
     <ClCompile Include="Problem12.cpp" />
     <ClCompile Include="Problem13.cpp" />
     <ClCompile Include="Problem2.cpp" />
