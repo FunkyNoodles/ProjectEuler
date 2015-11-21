@@ -6,7 +6,6 @@
 
 using namespace std;
 
-
 Problem11::Problem11()
 {
 	string nextLine;
@@ -26,33 +25,39 @@ Problem11::Problem11()
 	}
 	unsigned __int64 product = 1;
 	unsigned __int64 max = 0;
-	for (int i = 0; i < gridLength - sequenceLength+1; i++)
+	for (int i = 0; i < gridLength; i++)
 	{
 		for (int j = 0; j < gridHeight; j++)
 		{
-			for (int k = 0; k < 3; k++)
+			for (int k = 0; k < 4; k++)
 			{
-				if (k == 0)
+				if (k == 0 && i <= gridLength - sequenceLength)
 				{
 					//search horz
 					product = stoi(arr[i+ j*gridLength])*stoi(arr[i + 1 + j*gridLength])*stoi(arr[i + 2 + j*gridLength])*stoi(arr[i + 3 + j*gridLength]);
 				}
-				else if (k == 1 && j < 17)
+				else if (k == 1 && i <= gridLength - sequenceLength && j <= gridHeight - sequenceLength)
 				{
-					//search diagonal
+					//search diagonal down
 					product = stoi(arr[i + j*gridLength])*stoi(arr[i + 1 + (j + 1)*gridLength])*stoi(arr[i + 2 + (j + 2)*gridLength])*stoi(arr[i + 3 + (j + 3)*gridLength]);
 				}
-				else if (k == 2 && j < 17){
+				else if (k == 2 && j <= gridLength - sequenceLength){
 					//search vert
 					product = stoi(arr[i + j*gridLength])*stoi(arr[i + (j + 1)*gridLength])*stoi(arr[i + (j + 2)*gridLength])*stoi(arr[i + (j + 3)*gridLength]);
 				}
-				if (product == 5438256)
+				else if (k == 3 && i <= gridLength - sequenceLength && j >= sequenceLength - 1)
 				{
-					cout << i << "\t" << j << endl;
+					//search diagonal up
+					product = stoi(arr[i + j*gridLength])*stoi(arr[i + 1 + (j - 1)*gridLength])*stoi(arr[i + 2 + (j - 2)*gridLength])*stoi(arr[i + 3 + (j - 3)*gridLength]);
+				}
+				if (product == 24468444)
+				{
+					cout << i << "\t" << j << "\t" << k << endl;
 				}
 				if (max < product)
 				{
 					max = product;
+					//cout << i << "\t" << j << "\t" << k << endl;
 				}
 				//cout << product << endl;
 			}
