@@ -6,5 +6,6 @@ public:
 	~Problem19();
 	bool checkLeapYear(int year);
 	int numberOfDays(int month, int year);
+	struct Date * incrementDay(Date & d);
 };
 
