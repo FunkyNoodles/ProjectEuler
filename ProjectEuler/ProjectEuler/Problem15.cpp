@@ -4,8 +4,8 @@
 
 using namespace std;
 
-const int gridWidth = 21;
-const int gridHeight = 21;
+const int gridWidth = 4;
+const int gridHeight = 6;
 unsigned __int64 grid[gridWidth][gridHeight];
 
 Problem15::Problem15()
