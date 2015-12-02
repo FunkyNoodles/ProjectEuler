@@ -7,4 +7,3 @@ public:
 	~Problem17();
 	std::string convertNum2String(int n);
 };
-
