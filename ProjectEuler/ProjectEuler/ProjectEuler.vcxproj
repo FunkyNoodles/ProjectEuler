@@ -87,6 +87,7 @@
     <ClInclude Include="Problem13.h" />
     <ClInclude Include="Problem14.h" />
     <ClInclude Include="Problem15.h" />
+    <ClInclude Include="Problem16.h" />
     <ClInclude Include="Problem17.h" />
     <ClInclude Include="Problem19.h" />
     <ClInclude Include="Problem2.h" />
@@ -110,6 +111,7 @@
     <ClCompile Include="Problem13.cpp" />
     <ClCompile Include="Problem14.cpp" />
     <ClCompile Include="Problem15.cpp" />
+    <ClCompile Include="Problem16.cpp" />
     <ClCompile Include="Problem17.cpp" />
     <ClCompile Include="Problem19.cpp" />
     <ClCompile Include="Problem2.cpp" />

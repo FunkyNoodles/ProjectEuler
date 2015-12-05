@@ -18,6 +18,7 @@
 #include "Problem13.h"
 #include "Problem14.h"
 #include "Problem15.h"
+#include "Problem16.h"
 #include "Problem19.h"
 #include "Problem22.h"
 #include "Problem52.h"
@@ -28,7 +29,7 @@ int _tmain(int argc, _TCHAR* argv[]){
 	clock_t t1, t2;
 	t1 = clock();
 	/* Change next line to execute different problems */
-	Problem22 test;
+	Problem16 test;
 	t2 = clock();
 	float runTime = ((float)t2 - (float)t1);
 	cout << "Run time: "<< runTime << "ms" << endl;
